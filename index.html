@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>discord</title>
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <style>
+      @font-face {
+        font-family: "Pretendard-Regular";
+        src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+          format("woff");
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      body {
+        background-image: url("/public/undermil.png");
+        background-size: cover;
+      }
+      .main-header {
+        height: 3.5rem;
+        padding: 0 1.5rem;
+      }
+
+      .main-nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-nav__list {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .img_div {
+        margin-top: 5px;
+        justify-content: flex-start;
+        margin-right: 70px;
+        margin-left: -60px;
+      }
+
+      .main-nav__logo {
+        width: 150px;
+        height: 150px;
+      }
+
+      .main-nav__item {
+        font-family: "Pretendard-Regular";
+        font-weight: 900;
+        color: white;
+        margin: 0 1rem;
+        padding: 0;
+      }
+
+      .main-nav__btn {
+        font-family: "Pretendard-Regular";
+        font-size: 11px;
+        font-weight: 900;
+        background-color: white;
+        padding: 10px 15px;
+        border-radius: 24px;
+        border-style: none;
+        padding: 10px 15;
+        margin-left: 70px;
+        margin-right: -20px;
+      }
+
+      .main-bod {
+        width: 990px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .main-bod__h {
+        font-family: "Pretendard-Regular";
+        color: white;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .main-bod__p {
+        font-family: "Pretendard-Regular";
+        color: white;
+        margin-left: 120px;
+        margin-top: 80px;
+        font-size: 24px;
+        font: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <div class="img_div">
+            <img
+              class="main-nav__logo"
+              src="/public/undermillogo.svg"
+              alt="logo"
+            />
+          </div>
+          <li class="main-nav__item">Download</li>
+          <li class="main-nav__item">Nitro</li>
+          <li class="main-nav__item">Discover</li>
+          <li class="main-nav__item">Safety</li>
+          <li class="main-nav__item">Support</li>
+          <li class="main-nav__item">Blog</li>
+          <li class="main-nav__item">Careers</li>
+          <button class="main-nav__btn">Open Discord</button>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-bod">
+        <h1 class="main-bod__h">이런 공간이 있다면 어떨까요...</h1>
+        <p class="main-bod__p">
+          ...학교 동아리, 게임 그룹, 세계 예술 감상 커뮤니티에 소속되어 유대감을
+          느낄<br />수 있는 공간. 소중한 단짝 친구들과 어울릴 수 있는 우리만의
+          공간. 더 쉽게, 매<br />일 어울리고 이야기할 수 있는 그런 공간
+          말이에요.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
